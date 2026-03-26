@@ -1,0 +1,14 @@
+# Environment files — never commit secrets
+mteles/.env
+mteles/.env.local
+mteles/.env.*.local
+
+# Dependencies
+mteles/node_modules/
+
+# Build output
+mteles/dist/
+mteles/dist-ssr/
+
+# OS
+.DS_Store
