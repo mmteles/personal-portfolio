@@ -2,14 +2,6 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Project Structure
-
-All source code lives in the `mteles/` subdirectory. Run all commands from there:
-
-```sh
-cd mteles
-```
-
 ## Commands
 
 ```sh
@@ -57,7 +49,7 @@ npx vitest run src/test/example.test.ts
 
 ## Environment
 
-Requires `.env` in `mteles/` with Supabase credentials:
+Requires `.env` in the project root with Supabase credentials:
 ```
 VITE_SUPABASE_URL=...
 VITE_SUPABASE_ANON_KEY=...
